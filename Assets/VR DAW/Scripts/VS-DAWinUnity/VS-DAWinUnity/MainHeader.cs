@@ -7,9 +7,8 @@ using VS_DAWinUnity;
 
 namespace VS_DAWinUnity
 {
-    public class Main()
+    public class MainHeader
     {
-        //Example example = new Example();
+        public static double sampleRate = 44100.0d;
     }
 }
-
