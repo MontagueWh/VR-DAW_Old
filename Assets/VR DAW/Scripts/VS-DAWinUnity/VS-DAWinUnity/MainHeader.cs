@@ -9,6 +9,10 @@ namespace VS_DAWinUnity
 {
     public class MainHeader
     {
-        public static double sampleRate = 44100.0d;
+        public void Initalise() { }
+        
+        public static int sampleRate = 44100;
+
+        MainSource mainSource = new MainSource();
     }
 }
